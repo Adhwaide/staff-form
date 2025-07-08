@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Personal Details Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .form-container {
+      background-color: white;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    .gender-options {
+      display: flex;
+      gap: 10px;
+      margin-top: 5px;
+    }
+    .submit-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 10px;
+      border: none;
+      margin-top: 15px;
+      width: 100%;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Staff Personal Details Form</h2>
+    <form>
+      <label>Name:<input type="text" name="name" required></label>
+      <label>Father/Husband/Guardian Name:<input type="text" name="guardian_name" required></label>
+      <label>Date of Birth:<input type="date" name="dob" required></label>
+
+      <label>Gender:</label>
+      <div class="gender-options">
+        <label><input type="radio" name="gender" value="Male"> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+        <label><input type="radio" name="gender" value="Other"> Other</label>
+      </div>
+
+      <label>Contact Number:<input type="tel" name="contact" required></label>
+      
+      <label>Emergency Contact 1 - Name & Relation:<input type="text" name="emergency1_name" required></label>
+      <label>Emergency Contact 1 - Mobile No:<input type="tel" name="emergency1_mobile" required></label>
+
+      <label>Emergency Contact 2 - Name & Relation:<input type="text" name="emergency2_name"></label>
+      <label>Emergency Contact 2 - Mobile No:<input type="tel" name="emergency2_mobile"></label>
+
+      <label>Educational Qualification:<input type="text" name="education"></label>
+      <label>Aadhaar Number:<input type="text" name="aadhaar"></label>
+      
+      <label>Permanent Address:<textarea name="permanent_address"></textarea></label>
+      <label>Present Address:<textarea name="present_address"></textarea></label>
+
+      <label>Experience:<input type="text" name="experience"></label>
+      <label>Designation:<input type="text" name="designation"></label>
+      <label>Working Site:<input type="text" name="working_site"></label>
+      <label>Police Station:<input type="text" name="police_station"></label>
+      <label>Salary:<input type="text" name="salary"></label>
+
+      <label>Employee Name:<input type="text" name="employee_name"></label>
+      <label>Signature:<input type="text" name="signature"></label>
+      <label>Date:<input type="date" name="form_date"></label>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
