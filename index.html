@@ -22,7 +22,7 @@
       display: block;
       margin-top: 10px;
     }
-    input, textarea, select {
+    input, textarea {
       width: 100%;
       padding: 8px;
       margin-top: 5px;
@@ -50,40 +50,40 @@
   <div class="form-container">
     <h2>Staff Personal Details Form</h2>
     <form action="https://sheetdb.io/api/v1/g9mmp9e1hvahb" method="POST">
-      <label>Name:<input type="text" name="name" required></label>
-      <label>Father/Husband/Guardian Name:<input type="text" name="guardian_name" required></label>
-      <label>Date of Birth:<input type="date" name="dob" required></label>
+      <label>Name:<input type="text" name="Name" required></label>
+      <label>Father/Husband/Guardian Name:<input type="text" name="Guardian_Name" required></label>
+      <label>Date of Birth:<input type="date" name="DOB" required></label>
 
       <label>Gender:</label>
       <div class="gender-options">
-        <label><input type="radio" name="gender" value="Male"> Male</label>
-        <label><input type="radio" name="gender" value="Female"> Female</label>
-        <label><input type="radio" name="gender" value="Other"> Other</label>
+        <label><input type="radio" name="Gender" value="Male"> Male</label>
+        <label><input type="radio" name="Gender" value="Female"> Female</label>
+        <label><input type="radio" name="Gender" value="Other"> Other</label>
       </div>
 
-      <label>Contact Number:<input type="tel" name="contact" required></label>
-      
-      <label>Emergency Contact 1 - Name & Relation:<input type="text" name="emergency1_name" required></label>
-      <label>Emergency Contact 1 - Mobile No:<input type="tel" name="emergency1_mobile" required></label>
+      <label>Contact Number:<input type="tel" name="Contact_Number" required></label>
 
-      <label>Emergency Contact 2 - Name & Relation:<input type="text" name="emergency2_name"></label>
-      <label>Emergency Contact 2 - Mobile No:<input type="tel" name="emergency2_mobile"></label>
+      <label>Emergency Contact 1 - Name & Relation:<input type="text" name="Emergency1_Name" required></label>
+      <label>Emergency Contact 1 - Mobile No:<input type="tel" name="Emergency1_Mobile" required></label>
 
-      <label>Educational Qualification:<input type="text" name="education"></label>
-      <label>Aadhaar Number:<input type="text" name="aadhaar"></label>
-      
-      <label>Permanent Address:<textarea name="permanent_address"></textarea></label>
-      <label>Present Address:<textarea name="present_address"></textarea></label>
+      <label>Emergency Contact 2 - Name & Relation:<input type="text" name="Emergency2_Name"></label>
+      <label>Emergency Contact 2 - Mobile No:<input type="tel" name="Emergency2_Mobile"></label>
 
-      <label>Experience:<input type="text" name="experience"></label>
-      <label>Designation:<input type="text" name="designation"></label>
-      <label>Working Site:<input type="text" name="working_site"></label>
-      <label>Police Station:<input type="text" name="police_station"></label>
-      <label>Salary:<input type="text" name="salary"></label>
+      <label>Educational Qualification:<input type="text" name="Education"></label>
+      <label>Aadhaar Number:<input type="text" name="Aadhaar"></label>
 
-      <label>Employee Name:<input type="text" name="employee_name"></label>
-      <label>Signature:<input type="text" name="signature"></label>
-      <label>Date:<input type="date" name="form_date"></label>
+      <label>Permanent Address:<textarea name="Permanent_Address"></textarea></label>
+      <label>Present Address:<textarea name="Present_Address"></textarea></label>
+
+      <label>Experience:<input type="text" name="Experience"></label>
+      <label>Designation:<input type="text" name="Designation"></label>
+      <label>Working Site:<input type="text" name="Working_Site"></label>
+      <label>Police Station:<input type="text" name="Police_Station"></label>
+      <label>Salary:<input type="text" name="Salary"></label>
+
+      <label>Employee Name:<input type="text" name="Employee_Name"></label>
+      <label>Signature:<input type="text" name="Signature"></label>
+      <label>Date:<input type="date" name="Date"></label>
 
       <button type="submit" class="submit-btn">Submit</button>
     </form>
@@ -91,4 +91,3 @@
 </body>
 </html>
 
-#hai
